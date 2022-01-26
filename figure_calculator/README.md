@@ -6,8 +6,4 @@ EXAMPLE:
 
 RECTANGLE
 
-<<<<<<< HEAD
 2 5
-=======
-2 5
->>>>>>> origin/main
