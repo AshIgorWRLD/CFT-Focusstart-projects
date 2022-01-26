@@ -1,0 +1,2 @@
+RECTANGLE
+10 9
