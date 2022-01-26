@@ -1,0 +1,146 @@
+20-11-2021 20:41:40 ERROR Circle:36 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-11-2021 20:41:40 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-11-2021 20:41:40 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-11-2021 20:41:40 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-11-2021 20:41:40 INFO  Figure:67 - 
+Тип фигуры: null
+
+Площадь: 6.0 кв. мм
+
+Периметр: 12.0 мм
+
+
+20-11-2021 20:41:40 INFO  Triangle:61 - 
+Первая сторона и противолежащий ей угол: 3.0 мм - 36.9°
+
+Вторая сторона и противолежащий ей угол: 4.0 мм - 53.2°
+
+Третья сторона и противолежащий ей угол: 5.0 мм - 90.0°
+20-11-2021 20:41:40 INFO  InputFileUnitTest:99 - TEST: rectangleParametersTest - COMPLETED
+20-11-2021 20:41:40 INFO  Figure:67 - 
+Тип фигуры: null
+
+Площадь: 78.6 кв. мм
+
+Периметр: 31.5 мм
+
+
+20-11-2021 20:41:40 INFO  Circle:49 - 
+Радиус: 5.0 мм
+
+Диаметр: 10.0 мм
+20-11-2021 20:41:40 INFO  InputFileUnitTest:57 - TEST: circleParametersTest - COMPLETED
+20-11-2021 20:41:40 ERROR Triangle:47 - Sorry, you need to input numbers
+20-11-2021 20:41:40 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-11-2021 20:41:40 ERROR Triangle:52 - Sorry, your parameters can't make triangle
+20-11-2021 20:41:40 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-11-2021 20:41:40 INFO  Figure:67 - 
+Тип фигуры: null
+
+Площадь: 90.0 кв. мм
+
+Периметр: 38.0 мм
+
+
+20-11-2021 20:41:40 INFO  Rectangle:50 - 
+Длина диагонали: 13.5 мм
+
+Длина: 10.0 мм
+
+Ширина: 9.0 мм
+20-11-2021 20:41:40 INFO  InputFileUnitTest:76 - TEST: rectangleParametersTest - COMPLETED
+20-11-2021 20:42:07 ERROR InputParser:39 - No parameters in file
+20-11-2021 20:42:07 INFO  InputUnitTest:59 - TEST: NoParametersTriangle - COMPLETED
+20-11-2021 20:42:07 ERROR InputParser:45 - Please check your input file, program can't find it
+20-11-2021 20:42:07 INFO  InputUnitTest:23 - TEST: wrongFilePathTest - COMPLETED
+20-11-2021 20:42:07 INFO  InputUnitTest:47 - TEST: emptyFileTest - COMPLETED
+20-11-2021 20:43:07 ERROR InputParser:39 - No parameters in file
+20-11-2021 20:43:07 INFO  InputUnitTest:59 - TEST: NoParametersTriangle - COMPLETED
+20-11-2021 20:43:07 ERROR InputParser:45 - Please check your input file, program can't find it
+20-11-2021 20:43:07 INFO  InputUnitTest:23 - TEST: wrongFilePathTest - COMPLETED
+20-11-2021 20:43:07 INFO  InputUnitTest:47 - TEST: emptyFileTest - COMPLETED
+20-11-2021 20:43:07 INFO  InputUnitTest:35 - TEST: rightFilePathTest - COMPLETED
+20-12-2021 19:23:45 ERROR InputParser:39 - No parameters in file
+20-12-2021 19:23:45 INFO  InputUnitTest:59 - TEST: NoParametersTriangle - COMPLETED
+20-12-2021 19:23:45 ERROR InputParser:45 - Please check your input file, program can't find it
+20-12-2021 19:23:45 INFO  InputUnitTest:23 - TEST: wrongFilePathTest - COMPLETED
+20-12-2021 19:23:45 INFO  InputUnitTest:47 - TEST: emptyFileTest - COMPLETED
+20-12-2021 19:23:45 INFO  InputUnitTest:35 - TEST: rightFilePathTest - COMPLETED
+20-12-2021 19:23:51 ERROR InputParser:39 - No parameters in file
+20-12-2021 19:23:51 INFO  InputUnitTest:59 - TEST: NoParametersTriangle - COMPLETED
+20-12-2021 19:23:51 ERROR InputParser:45 - Please check your input file, program can't find it
+20-12-2021 19:23:51 INFO  InputUnitTest:23 - TEST: wrongFilePathTest - COMPLETED
+20-12-2021 19:23:51 INFO  InputUnitTest:47 - TEST: emptyFileTest - COMPLETED
+20-12-2021 19:23:51 INFO  InputUnitTest:35 - TEST: rightFilePathTest - COMPLETED
+20-12-2021 19:23:58 ERROR FigureFabric:40 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-12-2021 19:23:58 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-12-2021 19:23:58 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-12-2021 19:23:58 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-12-2021 19:23:58 ERROR FigureFabric:75 - Sorry, you need to input numbers
+20-12-2021 19:23:58 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-12-2021 19:23:58 ERROR FigureFabric:81 - Sorry, your parameters can't make triangle
+20-12-2021 19:23:58 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-12-2021 19:27:16 ERROR FigureFabric:40 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-12-2021 19:27:16 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-12-2021 19:27:16 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-12-2021 19:27:16 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-12-2021 19:27:16 ERROR FigureFabric:75 - Sorry, you need to input numbers
+20-12-2021 19:27:16 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-12-2021 19:27:16 ERROR FigureFabric:81 - Sorry, your parameters can't make triangle
+20-12-2021 19:27:16 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-12-2021 19:28:49 ERROR FigureFabric:40 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-12-2021 19:28:49 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-12-2021 19:28:49 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-12-2021 19:28:49 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-12-2021 19:28:49 ERROR FigureFabric:75 - Sorry, you need to input numbers
+20-12-2021 19:28:49 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-12-2021 19:28:49 ERROR FigureFabric:81 - Sorry, your parameters can't make triangle
+20-12-2021 19:28:49 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-12-2021 19:29:11 ERROR FigureFabric:40 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-12-2021 19:29:11 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-12-2021 19:29:11 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-12-2021 19:29:11 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-12-2021 19:29:11 ERROR FigureFabric:75 - Sorry, you need to input numbers
+20-12-2021 19:29:11 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-12-2021 19:29:11 ERROR FigureFabric:81 - Sorry, your parameters can't make triangle
+20-12-2021 19:29:11 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-12-2021 19:33:34 ERROR FigureFabric:40 - Sorry, wrong arguments number, remember, circle - radius, rectangle - 2 sides, triangle - 3 sides
+20-12-2021 19:33:34 INFO  InputFileUnitTest:37 - TEST: wrongParametersAmountTest - COMPLETED
+20-12-2021 19:33:34 ERROR InputParser:32 - Sorry, wrong figure type, you can only use CIRCLE, RECTANGLE and TRIANGLE
+20-12-2021 19:33:34 INFO  InputFileUnitTest:25 - TEST: wrongFigureTypeTest - COMPLETED
+20-12-2021 19:33:34 INFO  InputFileUnitTest:99 - TEST: rectangleParametersTest - COMPLETED
+20-12-2021 19:33:34 INFO  InputFileUnitTest:57 - TEST: circleParametersTest - COMPLETED
+20-12-2021 19:33:34 ERROR FigureFabric:75 - Sorry, you need to input numbers
+20-12-2021 19:33:34 INFO  InputFileUnitTest:127 - TEST: wrongParametersTypeTest - COMPLETED
+20-12-2021 19:33:34 ERROR FigureFabric:81 - Sorry, your parameters can't make triangle
+20-12-2021 19:33:34 INFO  InputFileUnitTest:113 - TEST: wrongTriangleSidesRatio - COMPLETED
+20-12-2021 19:33:34 INFO  InputFileUnitTest:76 - TEST: rectangleParametersTest - COMPLETED
+26-01-2022 23:04:30 ERROR MainTask2:14 - wrong arguments number
+26-01-2022 23:08:33 INFO  Figure:57 - 
+Тип фигуры: треугольник
+
+Площадь: 5.332682 кв. мм
+
+Периметр: 13.0 мм
+
+
+26-01-2022 23:08:33 INFO  Triangle:43 - 
+Первая сторона и противолежащий ей угол: 3.0 мм - 26.4°
+
+Вторая сторона и противолежащий ей угол: 4.0 мм - 36.4°
+
+Третья сторона и противолежащий ей угол: 6.0 мм - 117.3°
+26-01-2022 23:36:08 INFO  Figure:57 - 
+Тип фигуры: треугольник
+
+Площадь: 5.332682 кв. мм
+
+Периметр: 13.0 мм
+
+
+26-01-2022 23:36:08 INFO  Triangle:43 - 
+Первая сторона и противолежащий ей угол: 3.0 мм - 26.4°
+
+Вторая сторона и противолежащий ей угол: 4.0 мм - 36.4°
+
+Третья сторона и противолежащий ей угол: 6.0 мм - 117.3°
