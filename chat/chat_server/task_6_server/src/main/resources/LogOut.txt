@@ -1,2 +1,69 @@
 27-01-2022 19:12:53  INFO [main] (Server.java:46) - SERVER IS STARTED
 27-01-2022 19:12:53  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+27-01-2022 19:22:17  INFO [main] (Server.java:46) - SERVER IS STARTED
+27-01-2022 19:22:17  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+27-01-2022 19:22:31  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-55105 CONNECTED TO CHAT
+27-01-2022 19:22:31  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:96) - READY TO READ NAME BYTES
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:98) - USER - kanye
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (Server.java:82) - THERE IS 0 MEMBERS
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:105) - NAME IS kanye
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:22:31  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:23:33  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-55127 CONNECTED TO CHAT
+27-01-2022 19:23:33  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:96) - READY TO READ NAME BYTES
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:98) - USER - drake
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (Server.java:82) - THERE IS 1 MEMBERS
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (Server.java:84) - kanye
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:105) - NAME IS drake
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:33  INFO [pool-1-thread-2] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:64) - CODE: 3
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:37  INFO [pool-1-thread-2] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 3
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:23:43  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 3
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:36  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:64) - CODE: 3
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:42  INFO [pool-1-thread-2] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 5
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (Server.java:68) - 2 CLIENTS
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:24:45  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+27-01-2022 19:25:06  INFO [pool-1-thread-2] (ClientHandler.java:64) - CODE: 5
+27-01-2022 19:25:06  INFO [pool-1-thread-2] (Server.java:68) - 1 CLIENTS
+27-01-2022 19:25:06  INFO [pool-1-thread-2] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+27-01-2022 19:25:06  INFO [pool-1-thread-2] (ClientHandler.java:89) - MESSAGE RESENT
+27-01-2022 19:25:06  INFO [pool-1-thread-2] (ClientHandler.java:57) - WAIT THE MESSAGE

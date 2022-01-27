@@ -1,0 +1,128 @@
+27-01-2022 19:21:30 ERROR [AWT-EventQueue-0] (Client.java:65) - CAN'T CREATE CLIENT SOCKET 
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:576)
+	at java.base/sun.nio.ch.Net.connect(Net.java:565)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:588)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:645)
+	at java.base/java.net.Socket.connect(Socket.java:595)
+	at java.base/java.net.Socket.<init>(Socket.java:519)
+	at java.base/java.net.Socket.<init>(Socket.java:327)
+	at ru.cft.focusstart.client.model.Client.start(Client.java:56)
+	at ru.cft.focusstart.client.controller.WindowController$TakeLogInInfoListener.actionPerformed(WindowController.java:48)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6617)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6382)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2264)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4993)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2322)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4934)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4563)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4504)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2308)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2773)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4825)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:391)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+27-01-2022 19:22:31  INFO [AWT-EventQueue-0] (Client.java:70) - CLIENT SOCKET: Socket[addr=localhost/127.0.0.1,port=8083,localport=55105]
+27-01-2022 19:22:31  INFO [AWT-EventQueue-0] (Client.java:78) - CLIENT READY TO MESSAGE SERVER
+27-01-2022 19:22:31  INFO [AWT-EventQueue-0] (Client.java:84) - STARTED
+27-01-2022 19:22:31  INFO [Thread-0] (ClientTask.java:48) - CODE: 4
+27-01-2022 19:22:31  INFO [Thread-0] (ClientTask.java:76) - NAME SENT TO SERVER
+27-01-2022 19:22:31  INFO [Thread-0] (ClientTask.java:48) - CODE: 1
+27-01-2022 19:22:31  INFO [Thread-0] (ClientTask.java:58) - SUCCESSFULLY ADDED TO THE CHAT
+27-01-2022 19:22:31  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:22:31  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:22:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:22:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:22:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:22:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 2
+27-01-2022 19:22:33  INFO [Thread-0] (ClientTask.java:84) - AMOUNT: 1
+27-01-2022 19:22:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:22:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:22:33  INFO [Thread-0] (MainWindow.java:43) - AMOUNT: 1
+27-01-2022 19:23:33  INFO [AWT-EventQueue-0] (Client.java:70) - CLIENT SOCKET: Socket[addr=localhost/127.0.0.1,port=8083,localport=55127]
+27-01-2022 19:23:33  INFO [AWT-EventQueue-0] (Client.java:78) - CLIENT READY TO MESSAGE SERVER
+27-01-2022 19:23:33  INFO [AWT-EventQueue-0] (Client.java:84) - STARTED
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 4
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:76) - NAME SENT TO SERVER
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 1
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:58) - SUCCESSFULLY ADDED TO THE CHAT
+27-01-2022 19:23:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 2
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:84) - AMOUNT: 2
+27-01-2022 19:23:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:43) - AMOUNT: 2
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:48) - CODE: 2
+27-01-2022 19:23:33  INFO [Thread-0] (ClientTask.java:84) - AMOUNT: 2
+27-01-2022 19:23:33  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:33  INFO [Thread-0] (MainWindow.java:43) - AMOUNT: 2
+27-01-2022 19:23:37  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:37  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:37  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:37  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:37  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:37  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:43  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:43  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:43  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:23:43  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:23:43  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:23:43  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:36  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:36  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:36  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:36  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:36  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:36  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:42  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:42  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:42  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:42  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:42  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:42  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:45  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:45  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:24:45  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:45  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:45  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:45  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:45  INFO [Thread-0] (ClientTask.java:48) - CODE: 2
+27-01-2022 19:24:45  INFO [Thread-0] (ClientTask.java:84) - AMOUNT: 1
+27-01-2022 19:24:45  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:24:45  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
+27-01-2022 19:24:45  INFO [Thread-0] (MainWindow.java:43) - AMOUNT: 1
+27-01-2022 19:25:06  INFO [Thread-0] (ClientTask.java:48) - CODE: 3
+27-01-2022 19:25:06  INFO [Thread-0] (Client.java:118) - OBSERVERS NOTIFIED 1
+27-01-2022 19:25:06  INFO [Thread-0] (MainWindow.java:190) - TAKE CHANGES
