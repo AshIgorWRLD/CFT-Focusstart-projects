@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 
 @Slf4j
-public class MainTask4 {
+public class Main {
     public static void main(String[] args) {
         InputParser inputParser = new InputParser();
         long inputNumber = inputParser.parse();
