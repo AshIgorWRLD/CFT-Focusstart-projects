@@ -6,7 +6,7 @@ import ru.cft.focusstart.parsers.InputParser;
 import java.io.File;
 
 @Slf4j
-public class MainTask2 {
+public class Main {
 
     public static void main(String[] args) {
 
