@@ -1,0 +1,132 @@
+19-12-2021 20:55:24  INFO [main] (Server.java:47) - SERVER IS STARTED
+19-12-2021 20:55:24  INFO [main] (Server.java:50) - SERVER IS WAITING NEW CLIENT
+19-12-2021 20:55:51  INFO [main] (Server.java:62) - CLIENT /127.0.0.1-53884 CONNECTED TO CHAT
+19-12-2021 20:55:51  INFO [main] (Server.java:50) - SERVER IS WAITING NEW CLIENT
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:98) - USER - ll
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (Server.java:83) - THERE IS 0 MEMBERS
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:105) - NAME IS ll
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (Server.java:69) - 1 CLIENTS
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 20:55:51  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 20:55:55  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 5
+19-12-2021 20:55:55  INFO [pool-1-thread-1] (Server.java:69) - 1 CLIENTS
+19-12-2021 20:55:55  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 20:55:55  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 20:55:55  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 21:08:08  INFO [main] (Server.java:47) - SERVER IS STARTED
+19-12-2021 21:08:08  INFO [main] (Server.java:50) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:13:02  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:13:02  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:13:57  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:13:57  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:16:31 ERROR [main] (Server.java:43) - CAN'T OPEN SERVER SOCKET
+java.net.BindException: Cannot assign requested address: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:552)
+	at java.base/sun.nio.ch.Net.bind(Net.java:541)
+	at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:643)
+	at java.base/java.net.ServerSocket.bind(ServerSocket.java:395)
+	at java.base/java.net.ServerSocket.<init>(ServerSocket.java:281)
+	at ru.cft.focusstart.server.Server.start(Server.java:41)
+	at ru.cft.focusstart.server.ServerOpener.open(ServerOpener.java:29)
+	at ru.cft.focusstart.server.ServerMain.main(ServerMain.java:10)
+19-12-2021 22:17:10  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:17:10  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:24:42  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:24:42  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:25:00  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:25:00  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:26:34  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:26:34  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:26:49  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-62029 CONNECTED TO CHAT
+19-12-2021 22:26:49  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:98) - USER - Kanye
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (Server.java:82) - THERE IS 0 MEMBERS
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:105) - NAME IS Kanye
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:26:49  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:26:55  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 3
+19-12-2021 22:26:55  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:26:55  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:26:55  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:26:55  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:28:08  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-62054 CONNECTED TO CHAT
+19-12-2021 22:28:08  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:98) - USER - Kanye
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (Server.java:82) - THERE IS 1 MEMBERS
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (Server.java:84) - Kanye
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:100) - NAME HAS TAKEN
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 22:28:08  INFO [pool-1-thread-2] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 22:28:13  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-62056 CONNECTED TO CHAT
+19-12-2021 22:28:13  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:98) - USER - Drake
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (Server.java:82) - THERE IS 1 MEMBERS
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (Server.java:84) - Kanye
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:105) - NAME IS Drake
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (Server.java:68) - 2 CLIENTS
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:13  INFO [pool-1-thread-3] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:64) - CODE: 3
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (Server.java:68) - 2 CLIENTS
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:19  INFO [pool-1-thread-3] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 3
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (Server.java:68) - 2 CLIENTS
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:42  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 5
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (Server.java:68) - 2 CLIENTS
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:45  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:28:47  INFO [pool-1-thread-3] (ClientHandler.java:64) - CODE: 5
+19-12-2021 22:28:47  INFO [pool-1-thread-3] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:28:47  INFO [pool-1-thread-3] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:28:47  INFO [pool-1-thread-3] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:28:47  INFO [pool-1-thread-3] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:30:42  INFO [main] (Server.java:46) - SERVER IS STARTED
+19-12-2021 22:30:42  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:31:12  INFO [main] (Server.java:61) - CLIENT /127.0.0.1-62111 CONNECTED TO CHAT
+19-12-2021 22:31:12  INFO [main] (Server.java:49) - SERVER IS WAITING NEW CLIENT
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:45) - SERVER TRY TO TAKE NEW CLIENT NAME
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:96) - READY TO READ NAME BYTES
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:98) - USER - lls
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (Server.java:82) - THERE IS 0 MEMBERS
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:105) - NAME IS lls
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:31:12  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:31:22  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 3
+19-12-2021 22:31:22  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:31:22  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:31:22  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:31:22  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
+19-12-2021 22:31:23  INFO [pool-1-thread-1] (ClientHandler.java:64) - CODE: 5
+19-12-2021 22:31:23  INFO [pool-1-thread-1] (Server.java:68) - 1 CLIENTS
+19-12-2021 22:31:23  INFO [pool-1-thread-1] (ClientHandler.java:81) - SEND MESSAGE GENERATED
+19-12-2021 22:31:23  INFO [pool-1-thread-1] (ClientHandler.java:89) - MESSAGE RESENT
+19-12-2021 22:31:23  INFO [pool-1-thread-1] (ClientHandler.java:57) - WAIT THE MESSAGE
