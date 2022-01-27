@@ -1,0 +1,297 @@
+27-01-2022 14:50:21 ERROR [main] (Storage.java:126) - Can't find properties file
+27-01-2022 14:52:05 ERROR [main] (Storage.java:126) - Can't find properties file
+27-01-2022 14:55:54  INFO [Thread-3] (ThreadConsumer.java:21) - Consumer 4 started
+27-01-2022 14:55:54  INFO [Thread-1] (ThreadConsumer.java:21) - Consumer 2 started
+27-01-2022 14:55:54  INFO [Thread-2] (ThreadConsumer.java:21) - Consumer 3 started
+27-01-2022 14:55:54  INFO [Thread-0] (ThreadConsumer.java:21) - Consumer 1 started
+27-01-2022 14:55:54  INFO [Thread-4] (ThreadConsumer.java:21) - Consumer 5 started
+27-01-2022 14:55:54  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 1 in storage
+27-01-2022 14:55:54  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:55:54  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 1
+27-01-2022 14:55:54  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 1
+27-01-2022 14:55:54  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:55:54  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:55:54  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 2 in storage
+27-01-2022 14:55:54  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:55:54  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:55:54  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 2
+27-01-2022 14:55:54  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:55:54  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 3 in storage
+27-01-2022 14:55:54  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 2
+27-01-2022 14:55:54  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 3
+27-01-2022 14:55:54  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:55:54  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 4 in storage
+27-01-2022 14:55:54  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 3
+27-01-2022 14:55:54  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 4
+27-01-2022 14:55:54  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:55:54  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 5 in storage
+27-01-2022 14:55:54  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 4
+27-01-2022 14:55:54  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 5
+27-01-2022 14:55:54  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:55:54  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 2
+27-01-2022 14:55:54  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 3
+27-01-2022 14:55:54  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:55:54  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 3
+27-01-2022 14:55:54  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 2
+27-01-2022 14:55:54  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:55:54  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 4
+27-01-2022 14:55:54  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 1
+27-01-2022 14:55:54  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:55:54  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 5
+27-01-2022 14:55:54  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 0
+27-01-2022 14:55:54  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:00  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:00  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:00  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:00  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:00  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:04  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:04  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 6 in storage
+27-01-2022 14:56:04  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:56:04  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 6
+27-01-2022 14:56:04  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:56:04  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 6
+27-01-2022 14:56:04  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:56:04  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:56:04  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:04  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:04  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:04  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:04  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 7 in storage
+27-01-2022 14:56:04  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:56:04  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 7
+27-01-2022 14:56:04  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:56:04  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 7
+27-01-2022 14:56:04  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 0
+27-01-2022 14:56:04  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:56:04  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 8 in storage
+27-01-2022 14:56:04  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 1
+27-01-2022 14:56:04  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 8
+27-01-2022 14:56:04  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:56:04  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 9 in storage
+27-01-2022 14:56:04  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 2
+27-01-2022 14:56:04  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 9
+27-01-2022 14:56:04  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:56:04  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 10 in storage
+27-01-2022 14:56:04  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 3
+27-01-2022 14:56:04  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 10
+27-01-2022 14:56:04  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:56:04  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 8
+27-01-2022 14:56:04  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 2
+27-01-2022 14:56:04  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:56:04  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 9
+27-01-2022 14:56:04  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 1
+27-01-2022 14:56:04  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:04  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 10
+27-01-2022 14:56:04  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 0
+27-01-2022 14:56:04  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:56:10  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:10  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:10  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:10  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:10  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:14  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:14  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 11 in storage
+27-01-2022 14:56:14  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:56:14  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 11
+27-01-2022 14:56:14  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:56:14  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 11
+27-01-2022 14:56:14  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:56:14  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:56:14  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:14  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 12 in storage
+27-01-2022 14:56:14  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:56:14  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 12
+27-01-2022 14:56:14  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:56:14  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 12
+27-01-2022 14:56:14  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 0
+27-01-2022 14:56:14  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:14  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:14  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 13 in storage
+27-01-2022 14:56:14  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 1
+27-01-2022 14:56:14  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 13
+27-01-2022 14:56:14  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:56:14  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 13
+27-01-2022 14:56:14  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 0
+27-01-2022 14:56:14  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:56:14  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:14  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 14 in storage
+27-01-2022 14:56:14  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 1
+27-01-2022 14:56:14  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 14
+27-01-2022 14:56:14  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:56:14  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 14
+27-01-2022 14:56:14  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:14  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 0
+27-01-2022 14:56:14  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:56:14  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 15 in storage
+27-01-2022 14:56:14  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 1
+27-01-2022 14:56:14  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 15
+27-01-2022 14:56:14  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:56:14  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 15
+27-01-2022 14:56:14  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 0
+27-01-2022 14:56:14  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:56:20  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:20  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:20  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:20  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:20  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:24  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:24  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 16 in storage
+27-01-2022 14:56:24  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:56:24  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 16
+27-01-2022 14:56:24  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:56:24  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 16
+27-01-2022 14:56:24  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:56:24  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:56:24  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:24  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 17 in storage
+27-01-2022 14:56:24  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:56:24  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 17
+27-01-2022 14:56:24  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:56:24  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 17
+27-01-2022 14:56:24  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 0
+27-01-2022 14:56:24  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:56:24  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:24  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 18 in storage
+27-01-2022 14:56:24  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 1
+27-01-2022 14:56:24  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 18
+27-01-2022 14:56:24  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:56:24  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 18
+27-01-2022 14:56:24  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 0
+27-01-2022 14:56:24  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:56:24  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:24  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 19 in storage
+27-01-2022 14:56:24  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 1
+27-01-2022 14:56:24  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:24  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 19
+27-01-2022 14:56:24  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 0
+27-01-2022 14:56:24  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 19
+27-01-2022 14:56:24  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 20 in storage
+27-01-2022 14:56:24  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 1
+27-01-2022 14:56:24  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:56:24  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 20
+27-01-2022 14:56:24  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 20
+27-01-2022 14:56:24  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:56:24  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:56:24  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 0
+27-01-2022 14:56:24  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:30  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:30  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:30  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:30  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:30  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:34  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:34  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 21 in storage
+27-01-2022 14:56:34  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:56:34  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 21
+27-01-2022 14:56:34  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:56:34  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 21
+27-01-2022 14:56:34  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 0
+27-01-2022 14:56:34  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:56:34  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:34  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:34  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 22 in storage
+27-01-2022 14:56:34  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:56:34  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 22
+27-01-2022 14:56:34  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 22
+27-01-2022 14:56:34  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:56:34  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:56:34  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:56:34  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 23 in storage
+27-01-2022 14:56:34  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 1
+27-01-2022 14:56:34  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 23
+27-01-2022 14:56:34  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:56:34  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 23
+27-01-2022 14:56:34  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 0
+27-01-2022 14:56:34  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:34  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:34  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:34  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 24 in storage
+27-01-2022 14:56:34  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 1
+27-01-2022 14:56:34  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 24
+27-01-2022 14:56:34  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:56:34  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 24
+27-01-2022 14:56:34  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 0
+27-01-2022 14:56:34  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:56:34  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 25 in storage
+27-01-2022 14:56:34  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 1
+27-01-2022 14:56:34  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 25
+27-01-2022 14:56:34  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:56:34  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 25
+27-01-2022 14:56:34  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 0
+27-01-2022 14:56:34  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:56:40  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:40  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:40  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:40  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:40  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:44  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:44  INFO [Thread-5] (Storage.java:71) - Producer 1 has put resource 26 in storage
+27-01-2022 14:56:44  INFO [Thread-5] (Storage.java:72) - Resources in storage after Producer 1: 1
+27-01-2022 14:56:44  INFO [Thread-5] (ThreadProducer.java:26) - Producer 1 has produced resource 26
+27-01-2022 14:56:44  INFO [Thread-5] (ThreadProducer.java:27) - Producer 1 went to sleep
+27-01-2022 14:56:44  INFO [Thread-2] (Storage.java:90) - Consumer 3 has taken resource 26
+27-01-2022 14:56:44  INFO [Thread-2] (Storage.java:91) - Resources in storage after Consumer 3: 0
+27-01-2022 14:56:44  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:56:44  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:44  INFO [Thread-7] (Storage.java:71) - Producer 3 has put resource 27 in storage
+27-01-2022 14:56:44  INFO [Thread-7] (Storage.java:72) - Resources in storage after Producer 3: 1
+27-01-2022 14:56:44  INFO [Thread-7] (ThreadProducer.java:26) - Producer 3 has produced resource 27
+27-01-2022 14:56:44  INFO [Thread-7] (ThreadProducer.java:27) - Producer 3 went to sleep
+27-01-2022 14:56:44  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:44  INFO [Thread-3] (Storage.java:90) - Consumer 4 has taken resource 27
+27-01-2022 14:56:44  INFO [Thread-3] (Storage.java:91) - Resources in storage after Consumer 4: 0
+27-01-2022 14:56:44  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:56:44  INFO [Thread-9] (Storage.java:71) - Producer 5 has put resource 28 in storage
+27-01-2022 14:56:44  INFO [Thread-9] (Storage.java:72) - Resources in storage after Producer 5: 1
+27-01-2022 14:56:44  INFO [Thread-9] (ThreadProducer.java:26) - Producer 5 has produced resource 28
+27-01-2022 14:56:44  INFO [Thread-9] (ThreadProducer.java:27) - Producer 5 went to sleep
+27-01-2022 14:56:44  INFO [Thread-0] (Storage.java:90) - Consumer 1 has taken resource 28
+27-01-2022 14:56:44  INFO [Thread-0] (Storage.java:91) - Resources in storage after Consumer 1: 0
+27-01-2022 14:56:44  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:56:44  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:44  INFO [Thread-8] (Storage.java:71) - Producer 4 has put resource 29 in storage
+27-01-2022 14:56:44  INFO [Thread-8] (Storage.java:72) - Resources in storage after Producer 4: 1
+27-01-2022 14:56:44  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:44  INFO [Thread-8] (ThreadProducer.java:26) - Producer 4 has produced resource 29
+27-01-2022 14:56:44  INFO [Thread-4] (Storage.java:90) - Consumer 5 has taken resource 29
+27-01-2022 14:56:44  INFO [Thread-8] (ThreadProducer.java:27) - Producer 4 went to sleep
+27-01-2022 14:56:44  INFO [Thread-4] (Storage.java:91) - Resources in storage after Consumer 5: 0
+27-01-2022 14:56:44  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:56:44  INFO [Thread-6] (Storage.java:71) - Producer 2 has put resource 30 in storage
+27-01-2022 14:56:44  INFO [Thread-6] (Storage.java:72) - Resources in storage after Producer 2: 1
+27-01-2022 14:56:44  INFO [Thread-6] (ThreadProducer.java:26) - Producer 2 has produced resource 30
+27-01-2022 14:56:44  INFO [Thread-6] (ThreadProducer.java:27) - Producer 2 went to sleep
+27-01-2022 14:56:44  INFO [Thread-1] (Storage.java:90) - Consumer 2 has taken resource 30
+27-01-2022 14:56:44  INFO [Thread-1] (Storage.java:91) - Resources in storage after Consumer 2: 0
+27-01-2022 14:56:44  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:56:50  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:56:50  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:56:50  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:56:50  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:56:50  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:56:54  INFO [Thread-5] (ThreadProducer.java:33) - Producer 1 woke up
+27-01-2022 14:56:54  INFO [Thread-5] (ThreadProducer.java:35) - Producer 1 ended work
+27-01-2022 14:56:54  INFO [Thread-7] (ThreadProducer.java:33) - Producer 3 woke up
+27-01-2022 14:56:54  INFO [Thread-7] (ThreadProducer.java:35) - Producer 3 ended work
+27-01-2022 14:56:54  INFO [Thread-9] (ThreadProducer.java:33) - Producer 5 woke up
+27-01-2022 14:56:54  INFO [Thread-9] (ThreadProducer.java:35) - Producer 5 ended work
+27-01-2022 14:56:54  INFO [Thread-8] (ThreadProducer.java:33) - Producer 4 woke up
+27-01-2022 14:56:54  INFO [Thread-8] (ThreadProducer.java:35) - Producer 4 ended work
+27-01-2022 14:56:54  INFO [Thread-6] (ThreadProducer.java:33) - Producer 2 woke up
+27-01-2022 14:56:54  INFO [Thread-6] (ThreadProducer.java:35) - Producer 2 ended work
+27-01-2022 14:57:10  INFO [Thread-2] (ThreadConsumer.java:27) - Consumer 3 went to sleep
+27-01-2022 14:57:10  INFO [Thread-0] (ThreadConsumer.java:27) - Consumer 1 went to sleep
+27-01-2022 14:57:10  INFO [Thread-3] (ThreadConsumer.java:27) - Consumer 4 went to sleep
+27-01-2022 14:57:10  INFO [Thread-4] (ThreadConsumer.java:27) - Consumer 5 went to sleep
+27-01-2022 14:57:10  INFO [Thread-1] (ThreadConsumer.java:27) - Consumer 2 went to sleep
+27-01-2022 14:57:16  INFO [Thread-2] (ThreadConsumer.java:33) - Consumer 3 woke up
+27-01-2022 14:57:16  INFO [Thread-2] (ThreadConsumer.java:35) - Consumer 3 ended work
+27-01-2022 14:57:16  INFO [Thread-0] (ThreadConsumer.java:33) - Consumer 1 woke up
+27-01-2022 14:57:16  INFO [Thread-0] (ThreadConsumer.java:35) - Consumer 1 ended work
+27-01-2022 14:57:16  INFO [Thread-3] (ThreadConsumer.java:33) - Consumer 4 woke up
+27-01-2022 14:57:16  INFO [Thread-3] (ThreadConsumer.java:35) - Consumer 4 ended work
+27-01-2022 14:57:16  INFO [Thread-1] (ThreadConsumer.java:33) - Consumer 2 woke up
+27-01-2022 14:57:16  INFO [Thread-1] (ThreadConsumer.java:35) - Consumer 2 ended work
+27-01-2022 14:57:16  INFO [Thread-4] (ThreadConsumer.java:33) - Consumer 5 woke up
+27-01-2022 14:57:16  INFO [Thread-4] (ThreadConsumer.java:35) - Consumer 5 ended work

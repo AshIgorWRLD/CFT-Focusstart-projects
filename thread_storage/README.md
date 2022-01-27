@@ -1,0 +1,1 @@
+ABOUT: resources production - consumption scheme
