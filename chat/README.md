@@ -1,0 +1,1 @@
+ABOUT: online chat, server is a console app and client is a desktop app
